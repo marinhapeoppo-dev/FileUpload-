@@ -1,0 +1,32 @@
+{
+  "name": "upload-website",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "14.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "cloudinary": "^1.41.0",
+    "formidable": "^3.5.1",
+    "axios": "^1.6.2",
+    "sharp": "^0.33.1",
+    "uuid": "^9.0.1",
+    "moment": "^2.29.4",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^4.12.0",
+    "lucide-react": "^0.309.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.5",
+    "eslint": "^8.53.0",
+    "eslint-config-next": "14.0.0"
+  }
+}
